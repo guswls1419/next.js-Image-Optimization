@@ -8,7 +8,7 @@ const shimmer = (w, h) => `
       <stop stop-color="#333" offset="20%" />
       <stop stop-color="#222" offset="50%" />
       <stop stop-color="#333" offset="70%" />
-    </linearGradient> 
+    </linearGradient>  
   </defs>
   <rect width="${w}" height="${h}" fill="#333" />
   <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
